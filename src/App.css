@@ -27,7 +27,52 @@
 .App-link {
   color: #61dafb;
 }
-
+/*  */
+.btn-wrapper button {
+  background-color: red;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  box-shadow: #333 0px 1px 5px;
+}
+.img-wrapper img {
+  width: 100px;
+  margin-top: -10px;;
+}
+.cart-wrapper{
+  height: 100px;
+    width: 500px;
+    border: 1px solid #ccc;
+    margin-left: 10%;
+}
+.item {
+  float: left;
+  display: inline-block;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+.add-to-cart img{
+  width: 80px;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+.cart-count{
+  
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    z-index: 1;
+    background-color: red;
+    padding: 7px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #fff;
+}
+/*  */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
